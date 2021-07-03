@@ -73,6 +73,11 @@ body {
  
 }
 
+.home-image:hover {
+ 
+}
+
+
 .home-paragraph {
   grid-column: 2/3;
   padding: 10px;
@@ -180,7 +185,7 @@ a {
 /*
 Image container for zooming*/
 .fx-container{
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 .fx-container:hover{
   transition: transform 1.5s ease;
