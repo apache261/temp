@@ -5,7 +5,7 @@ body {
   background-color: white;
   font-family: Sans Pro, Helvetica, sans-serif;
   font-size: 18px;
-  margin: 0;
+  margin: 0 5px 0 2px;
 }
 
 .bg-img {
@@ -78,10 +78,7 @@ body {
 }
 
 
-.home-paragraph {
-  grid-column: 2/3;
-  padding: 10px;
-}
+
 
 
 footer {
@@ -235,6 +232,12 @@ h5,
   font-size: 16px;
 }
 
+.home-paragraph {
+  grid-column: 2/3;
+  padding: 10px;
+  line-height: 30px;
+}
+
 .icon{
   height: 40px;
 }
@@ -328,9 +331,6 @@ reponsible for dividing the viewport*/
 }
 .sentence{
   line-height: 32px;
-}
-.sentence2{
-  line-height: 25px;
 }
 
 /*mobile responsive
