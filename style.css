@@ -194,49 +194,12 @@ Image container for zooming*/
   transform: scale(5);
 }
 
-
 /*//ZOOM EFFECTS*/
-.zoom1 img {
-  transform-origin: 0 0;
-  transition: transform .25s, visibility .25s ease-in;
-}
-
-
-.zoom1:hover img {
-  transform: scale(2);
-}
-
-
-.zoom2 img {
-  transform-origin: 50% 75%;
-  transition: transform 1s, filter .5s ease-out;
-}
-.zoom2:hover img {
-  transform: scale(5);
-}
-
-.zoom3 img {
-  transition: transform .5s ease-in-out;
-}
-.zoom3:hover img {
-  transform: scale(2) rotate(25deg);
-}
-
-.zoom4 img {
-  transition: transform 2s, filter 1.5s ease-in-out;
-  transform-origin: center center;
-  filter: brightness(50%);
-}
-.zoom4:hover img {
-  filter: brightness(100%);
-  transform: scale(1.3);
-}
-
-.zoom5 img {
-  transition: transform .5s, filter 1.5s ease-in-out;
+.zoom img {
+  transition: transform .5s, filter .5s ease-in-out;
   filter: grayscale(100%);
 }
-.zoom5:hover img {
+.zoom:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
 }
